@@ -1,11 +1,5 @@
---------------------------------------------------------------------------------
-
-           RTKLIB: An Open Source Program Package for GNSS Positioning
-
---------------------------------------------------------------------------------
-
-#
 #  RTKLIB 2.4.3
+> RTKLIB: An Open Source Program Package for GNSS Positioning
 
 RTKLIB is an open source program package for standard and precise positioning
 with GNSS (global navigation satellite system). RTKLIB consists of a portable
@@ -77,7 +71,7 @@ The features of RTKLIB are:
 
 --------------------------------------------------------------------------------
 
-### SYSTEM REQUIEREMENTS
+### System requirements
 
 The executable binary GUI and CUI APs included in the package require Microsoft
 Windows environment. On the other OS or environment, you have to compile and
@@ -103,7 +97,7 @@ ver.2.4.2 and the previous ones.
 
 --------------------------------------------------------------------------------
 
-### LICENSE
+### License
 
 The RTKLIB software package is distributed under the following BSD 2-clause
 license (http://opensource.org/licenses/BSD-2-Clause) and additional two
@@ -144,7 +138,7 @@ Previous versions of RTKLIB until ver. 2.4.1 had been distributed under GPLv3
 
 --------------------------------------------------------------------------------
 
-### DIRECTORY STRUCTURE OF PACKAGE
+### Directory structure
 ```
   rtklib_<ver>
   ./src             source programs of RTKLIB library *
@@ -178,13 +172,13 @@ Previous versions of RTKLIB until ver. 2.4.1 had been distributed under GPLv3
 ```
 --------------------------------------------------------------------------------
 
-### MANUAL
-Refer rtklib_<ver>/doc/manual_<ver>.pdf.
+### Manual
+Refer http://www.rtklib.com/prog/manual_2.4.2.pdf
 
 --------------------------------------------------------------------------------
 
-### SUPPORT INFORMATION
-Refer http://www.rtklib.com/rtklib_support.htm.
+### Support
+Refer http://www.rtklib.com/rtklib_support.htm
 
 --------------------------------------------------------------------------------
 
