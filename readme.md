@@ -285,42 +285,42 @@ The development branch for RTKLIB 2.4.3.
 
 --------------------------------------------------------------------------------
 
-OVERVIEW
+### OVERVIEW
 
 RTKLIB is an open source program package for standard and precise positioning
 with GNSS (global navigation satellite system). RTKLIB consists of a portable
 program library and several APs (application programs) utilizing the library.
 The features of RTKLIB are:
 
-(1) It supports standard and precise positioning algorithms with:
+- It supports standard and precise positioning algorithms with:
     
     GPS, GLONASS, Galileo, QZSS, BeiDou and SBAS
     
-(2) It supports various positioning modes with GNSS for both real-time- and
+- It supports various positioning modes with GNSS for both real-time- and
     post-processing:
     
     Single, DGPS/DGNSS, Kinematic, Static, Moving-Baseline, Fixed,
     PPP-Kinematic, PPP-Static and PPP-Fixed.
     
-(3) It supports many standard formats and protocols for GNSS:
+- It supports many standard formats and protocols for GNSS:
     
     RINEX 2.10,2.11,2.12 OBS/NAV/GNAV/HNAV/LNAV/QNAV, RINEX 3.00,3.01,3.02
     OBS/NAV,RINEX 3.02 CLK,RTCM ver.2.3,RTCM ver.3.1 (with amendment 1-5),
     RTCM ver.3.2, BINEX, NTRIP 1.0, NMEA 0183, SP3-c, ANTEX 1.4, IONEX 1.0,
     NGS PCV and EMS 2.0.
     
-(4) It supports several GNSS receivers' proprietary messages:
+- It supports several GNSS receivers' proprietary messages:
     
     NovAtel: OEM4/V/6,OEM3,OEMStar,Superstar II, Hemisphere: Eclipse,Crescent,
     u-blox: LEA-4T/5T/6T, SkyTraq: S1315F, JAVAD GRIL/GREIS, Furuno
     GW-10-II/III and NVS NV08C BINR.
     
-(5) It supports external communication via:
+- It supports external communication via:
     
     Serial, TCP/IP, NTRIP, local log file (record and playback) and FTP/HTTP
     (automatic download).
     
-(6) It provides many library functions and APIs (application program
+- It provides many library functions and APIs (application program
     interfaces):
     
     Satellite and navigation system functions, matrix and vector functions,
@@ -335,9 +335,9 @@ The features of RTKLIB are:
     post-processing positioning, stream server functions, RTK server
     functions, downloader functions.
     
-(7) It includes the following GUI (graphical user interface) and CUI
+- It includes the following GUI (graphical user interface) and CUI
     (command-line user interface) APs.
-    
+    ```
     --------------------------------------------------------------------------
         Function                     GUI AP          CUI AP
     --------------------------------------------------------------------------
@@ -350,13 +350,14 @@ The features of RTKLIB are:
     (g) Downloder of GNSS Data       RTKGET          -
     (h) NTRIP Browser                NTRIPSRCBROWS   -
     --------------------------------------------------------------------------
+    ```
 
-(8) All of the executable binary APs for Windows are included in the package as
+- All of the executable binary APs for Windows are included in the package as
     well as whole source programs of the library and the APs.
 
 --------------------------------------------------------------------------------
 
-SYSTEM REQUIEREMENTS
+### SYSTEM REQUIEREMENTS
 
 The executable binary GUI and CUI APs included in the package require Microsoft
 Windows environment. On the other OS or environment, you have to compile and
@@ -382,7 +383,7 @@ ver.2.4.2 and the previous ones.
 
 --------------------------------------------------------------------------------
 
-LICENSE
+### LICENSE
 
 The RTKLIB software package is distributed under the following BSD 2-clause
 license (http://opensource.org/licenses/BSD-2-Clause) and additional two
@@ -423,8 +424,8 @@ Previous versions of RTKLIB until ver. 2.4.1 had been distributed under GPLv3
 
 --------------------------------------------------------------------------------
 
-DIRECTORY STRUCTURE OF PACKAGE
-
+### DIRECTORY STRUCTURE OF PACKAGE
+```
   rtklib_<ver>
   ./src             source programs of RTKLIB library *
     ./rcv           source programs depending on GPS/GNSS receivers *
@@ -454,23 +455,21 @@ DIRECTORY STRUCTURE OF PACKAGE
   ./doc             document files
   
   * not included in the binary package rtklib_<ver>_bin.zip
-
+```
 --------------------------------------------------------------------------------
 
-MANUAL
-
+### MANUAL
 Refer rtklib_<ver>/doc/manual_<ver>.pdf.
 
 --------------------------------------------------------------------------------
 
-SUPPORT INFORMATION
-
+### SUPPORT INFORMATION
 Refer http://www.rtklib.com/rtklib_support.htm.
 
 --------------------------------------------------------------------------------
 
-HISTORY
-
+### HISTORY
+```
   ver.1.0      2007/01/25 new release
   ver.1.1      2007/03/20 add rnx2rtkp_gui, fix bugs, improve performance
   ver.2.1.0    2008/07/15 refactored, add applications
@@ -483,6 +482,6 @@ HISTORY
   ver.2.4.0    2010/08/08 see relnotes_2.4.0.pdf
   ver.2.4.1    2011/06/01 see relnotes_2.4.1.htm
   ver.2.4.2    2013/04/19 see relnotes_2.4.2.htm
-
+```
 --------------------------------------------------------------------------------
 
