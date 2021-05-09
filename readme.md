@@ -4,20 +4,8 @@
 
 --------------------------------------------------------------------------------
 
-OVERVIEW
-
-RTKLIB is an open source program package for standard and precise positioning
-with GNSS (global navigation satellite system). RTKLIB consists of a portable
-program library and several APs (application programs) utilizing the library.
-
 #
 #  RTKLIB 2.4.3
-
-### DESCRIPTION
-
-The development branch for RTKLIB 2.4.3.
-
-### OVERVIEW
 
 RTKLIB is an open source program package for standard and precise positioning
 with GNSS (global navigation satellite system). RTKLIB consists of a portable
