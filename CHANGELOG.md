@@ -260,3 +260,19 @@
         QT ported APs are just moved to RTKLIB/app/qtapp but not maintained.
         Documents in RTKLIB/doc are not updated.
 ```
+
+### HISTORY
+```
+  ver.1.0      2007/01/25 new release
+  ver.1.1      2007/03/20 add rnx2rtkp_gui, fix bugs, improve performance
+  ver.2.1.0    2008/07/15 refactored, add applications
+  ver.2.1.1    2008/10/19 fix bugs
+  ver.2.2.0    2009/01/20 add stream.c,rtksvr.c,preceph.c in src
+                          add rtknavi,rtkpost_mkl,srctblbrows,strsvr,str2str in app
+  ver.2.2.1    2009/05/17 see relnotes_2.2.1.txt
+  ver.2.2.2    2009/09/07 see relnotes_2.2.2.txt
+  ver.2.3.0    2009/12/17 see relnotes_2.3.0.txt
+  ver.2.4.0    2010/08/08 see relnotes_2.4.0.pdf
+  ver.2.4.1    2011/06/01 see relnotes_2.4.1.htm
+  ver.2.4.2    2013/04/19 see relnotes_2.4.2.htm
+```
