@@ -19,7 +19,7 @@ DESCRIPTION
 The development branch for RTKLIB 2.4.3.
 
 UPDATE HISTORY
-
+```
 2014/09/07  2.4.3 b1  add 3-panel and veritical-panel modes for RTKNAVI
                       add sky image overlay to skyplot for RTKPLOT
                       fix invalid identification of obs type "C2" (#113)
@@ -279,7 +279,7 @@ UPDATE HISTORY
     LIMITATIONS:
         QT ported APs are just moved to RTKLIB/app/qtapp but not maintained.
         Documents in RTKLIB/doc are not updated.
-
+```
 --------------------------------------------------------------------------------
 
            RTKLIB: An Open Source Program Package for GNSS Positioning
